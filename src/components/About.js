@@ -18,10 +18,16 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-              accusamus nesciunt error veritatis, recusandae pariatur, suscipit
-              quo ab tempore quidem ex porro asperiores molestiae doloribus quod
-              dolores quaerat omnis cumque.
+              Upon graduating from Union College in 2017 with a degree in
+              Geology, I began working for a geotechnical engineering and
+              consulting firm in Boston. After working for five years with the
+              same company, I decided to completely switch careers and follow my
+              passion. I then enrolled at Launch Academy, an 18-week full-stack
+              developer course focused on developing skills in client and server
+              side languages and frameworks such as Ruby on Rails and React.js.
+              Since then, I have continued to build personal projects and
+              explore other industry standard languages and technologies such as
+              Python, Typescript, Node.js and Django.
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import SkillIcons from "./SkillIcons";
+import SkillsMobile from "./SkillsMobile";
 
 const Skills = () => {
   return (
@@ -14,6 +15,7 @@ const Skills = () => {
           </p>
         </div>
         <SkillIcons />
+        <SkillsMobile />
       </div>
     </div>
   );

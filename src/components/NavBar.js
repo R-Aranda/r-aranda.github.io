@@ -11,8 +11,10 @@ const NavBar = () => {
   };
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#13171c] text-gray-300 z-10">
-      <div>
-        <p>RA</p>
+      <div className="ml-4 cursor-pointer rounded-md bg-[#1f2833]">
+        <Link to="home" smooth={true} duration={500}>
+          <img src="logo.png" alt="Logo" style={{ width: "80px" }} />
+        </Link>
       </div>
       <ul className="hidden md:flex">
         <li>

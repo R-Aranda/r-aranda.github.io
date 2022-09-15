@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillIcons = () => {
   return (
-    <div className="slider mx-auto">
+    <div className="slider mx-auto hidden lg:block">
       <span style={{ "--i": "1" }}>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         <p className="py-20 mx-6">CSS</p>

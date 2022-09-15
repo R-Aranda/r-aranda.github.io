@@ -16,7 +16,8 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-[#c5c6c7] py-4">
-            Submit the form below or shoot me an email -{" "}
+            Want to get in touch with me? Fill out the form below, or shoot me
+            an email -{" "}
             <a
               className="text-xl font-bold text-[#66FCF1]"
               href="mailto:rupertaranda@gmail.com"
@@ -29,7 +30,7 @@ const Contact = () => {
         <input
           className="bg-[#b0fffa] p-2"
           type="text"
-          placeholder="Name"
+          placeholder="Full Name"
           name="name"
         />
         <input
@@ -42,7 +43,7 @@ const Contact = () => {
           className="bg-[#b0fffa] p-2"
           name="message"
           rows="10"
-          placeholder="Message"
+          placeholder="Message..."
         />
         <button className="text-white border-2 hover:bg-[#66FCF1] hover:border-[#66FCF1] hover:text-black px-4 py-3 my-8 mx-auto flex items-center">
           Submit
