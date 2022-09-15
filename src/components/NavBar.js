@@ -9,7 +9,7 @@ const NavBar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-600 text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#13171c] text-gray-300 z-10">
       <div>
         <p>RA</p>
       </div>
