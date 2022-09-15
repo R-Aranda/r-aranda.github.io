@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const SideBar = () => {
   return (
@@ -26,17 +27,21 @@ const SideBar = () => {
           </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3f786b]">
-          <a
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
             className="flex justify-between items-center w-full text-gray-100"
-            href="/"
           >
             Email <HiOutlineMail size={30} />
-          </a>
+          </Link>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6688ae]">
           <a
             className="flex justify-between items-center w-full text-gray-100"
-            href="/"
+            href="Rupert Aranda Resume.pdf"
+            download="Rupert Aranda Resume.pdf"
+            target="_blank"
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>

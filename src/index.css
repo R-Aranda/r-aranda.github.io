@@ -57,3 +57,18 @@
 .slider span:hover img {
   transform: translateY(-30px) scale(1.2);
 }
+
+.project-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.project-container:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(156, 255, 252, 0.8),
+    hsla(189, 100%, 60%, 0.8)
+  ) !important;
+}
