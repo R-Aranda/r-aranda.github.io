@@ -16,7 +16,8 @@ const Home = () => {
           I've always had a passion for building things and love to work on
           products that are made to help people. I have experience working with
           Ruby on Rails, React, Redux, and many other technologies and
-          frameworks. In my free time, I love to travel and cook
+          frameworks. Check out some of my latest projects below or feel free to
+          shoot me an email!
         </p>
         {/* <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-400 hover:border-purple-400">

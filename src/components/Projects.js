@@ -1,5 +1,6 @@
 import React from "react";
 import bonVoyage from "../assets/bonVoyage.png";
+import nasa from "../assets/nasa.png";
 
 const Projects = () => {
   return (
@@ -30,6 +31,31 @@ const Projects = () => {
                   </button>
                 </a>
                 <a href="https://github.com/R-Aranda/bonVoyage" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${nasa})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto project-container"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                NASA Photo of the Day
+              </span>
+              <div className="pt-8 text-center">
+                {/* <a href="https://app-bon-voyage.herokuapp.com/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a> */}
+                <a
+                  href="https://github.com/R-Aranda/nasa-photo-of-the-day-app"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
