@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7aa98499.css",
-    "main.js": "/static/js/main.d43c4e0e.js",
-    "static/media/bonVoyage.png": "/static/media/bonVoyage.af847b32b01ab498aedc.png",
+    "main.css": "/static/css/main.37dc1bbc.css",
+    "main.js": "/static/js/main.8e394db7.js",
+    "static/media/bonVoyage.png": "/static/media/bonVoyage.7f36b0c4388ad2f968a9.png",
+    "static/media/nasa.png": "/static/media/nasa.e1c7757000be76e1ab4b.png",
     "index.html": "/index.html",
-    "main.7aa98499.css.map": "/static/css/main.7aa98499.css.map",
-    "main.d43c4e0e.js.map": "/static/js/main.d43c4e0e.js.map"
+    "main.37dc1bbc.css.map": "/static/css/main.37dc1bbc.css.map",
+    "main.8e394db7.js.map": "/static/js/main.8e394db7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aa98499.css",
-    "static/js/main.d43c4e0e.js"
+    "static/css/main.37dc1bbc.css",
+    "static/js/main.8e394db7.js"
   ]
 }
